@@ -1,0 +1,113 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7em;
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Utility class */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.display-1 {
+  font-size: 88px;
+  font-weight: 700;
+}
+
+.large {
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  padding: 13px 25px;
+  width: 150px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-dark {
+  background: #000;
+  color: #fff;
+  border: 2px solid #000;
+}
+
+.btn-outline {
+  color: #000;
+  border: 2px solid #000;
+}
+
+/* Showcase main */
+#showcase-main {
+  height: 100vh;
+}
+
+.showcase-text {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 250px 20px;
+}
+
+.showcase-image {
+  float: right;
+  width: 50%;
+  padding: 210px 0;
+}
+
+.showcase-image img {
+  width: 70%;
+}
