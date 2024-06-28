@@ -218,6 +218,44 @@ a {
   width: 400px;
 }
 
+/* about */
+#about {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#about h1,
+#about h3 {
+  text-align: center;
+}
+
+#about h3 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-weight: 300;
+}
+
+.about-title {
+  float: left;
+  width: 40%;
+  text-align: left;
+}
+
+.about-title h2 {
+  font-size: 50px;
+}
+
+.about-description {
+  float: right;
+  width: 60%;
+  padding-left: 20px;
+}
+
+.about-description p {
+  float: left;
+}
+
+/* footer */
 #mainfooter {
   text-align: center;
   background: #fefaea;
