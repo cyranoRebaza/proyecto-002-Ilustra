@@ -111,3 +111,40 @@ a {
 .showcase-image img {
   width: 70%;
 }
+
+/* navbar */
+#navbar {
+  background: #fefaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#navbar a {
+  color: #000;
+}
+
+#navbar .logo {
+  float: left;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  text-decoration: underline;
+}
